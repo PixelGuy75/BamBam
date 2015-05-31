@@ -6,8 +6,8 @@ author: PixelGuy75
 commands:
  bang:
   description: Starts a RussianRoulette game!
-  usage: /bang
-  permission: bambam.command.bang
+  usage: /bam
+  permission: bambam.command.bam
   aliases: [b]
 permissions:
  bambam:
@@ -18,6 +18,6 @@ permissions:
     default: false
     description: Allows usage of all BamBam commands
     children:
-     bambam.command.bang:
+     bambam.command.bam:
       default: true
-      description: Allows usage of /bang
+      description: Allows usage of /bam
