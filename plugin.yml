@@ -2,7 +2,7 @@ name: BamBam
 main: PixelGuy75\BamBam\Main
 version: 1.0
 api: 1.10.0
-author: PixelGuy75
+author: PixelGuy75, Gamecrafter, LDX, Blubberboy333
 commands:
  bang:
   description: Starts a RussianRoulette game!
