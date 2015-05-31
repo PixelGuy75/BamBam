@@ -1,2 +1,2 @@
-# BamBam
+# Bang
 Adds RussianRoulette to PocketMine!

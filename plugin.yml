@@ -1,0 +1,23 @@
+name: BamBam
+main: BamBam\Main
+version: 1.0.0
+api: 1.10.0
+author: PixelGuy75
+commands:
+ bang:
+  description: Starts a RussianRoulette game!
+  usage: /bang
+  permission: bambam.command.bang
+  aliases: [b]
+permissions:
+ bambam:
+  default: false
+  description: Allows access of all BamBam features
+  children:
+   bambam.command:
+    default: false
+    description: Allows usage of all BamBam commands
+    children:
+     bambam.command.bang:
+      default: true
+      description: Allows usage of /bang

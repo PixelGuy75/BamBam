@@ -1,0 +1,8 @@
+#Config file for BamBam v1.0 by PixelGuy75
+chambers: 6
+#Amount of chambers allowed, minimum: 2 default: 6
+commands:
+#Commands to execute if the player survives
+#{player} = the player that survives
+- say {player} survived!
+- give {player} 264 1
