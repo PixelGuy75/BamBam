@@ -28,7 +28,7 @@ class Main extends PluginBase{
         	    return true;
       	    	}
             	if(mt_rand(1, $chambers) == 1){
-            	    $sender->kill();
+            	    $sender->setHealth(0);
         	    $sender->sendMessage(TextFormat::RED."Unlucky.");
       	    	} 
       	    	else{
