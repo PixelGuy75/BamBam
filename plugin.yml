@@ -1,6 +1,6 @@
 name: BamBam
-main: BamBam\Main
-version: 1.0.0
+main: PixelGuy75\BamBam\Main
+version: 1.0
 api: 1.10.0
 author: PixelGuy75
 commands:
