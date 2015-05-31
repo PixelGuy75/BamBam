@@ -17,9 +17,9 @@ class Main extends PluginBase{
     }
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
-        if(strtolower($command->getName()) == "bang"){
+        if(strtolower($command->getName()) == "bam"){
             if($sender instanceof Player){
-            	if(!($sender->hasPermission("bambam") || $sender->hasPermission("bambam.command") || $sender->hasPermission("bambam.command.bang"))) {
+            	if(!($sender->hasPermission("bambam") || $sender->hasPermission("bambam.command") || $sender->hasPermission("bambam.command.bam"))) {
                     return false;
     	    	}
       	    	$chambers = $this->getConfig()->get("chambers");
