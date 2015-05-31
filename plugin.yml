@@ -2,9 +2,9 @@ name: BamBam
 main: PixelGuy75\BamBam\Main
 version: 1.0
 api: 1.10.0
-author: PixelGuy75, Gamecrafter, LDX, Blubberboy333
+author: [PixelGuy75, Gamecrafter, LDX, Blubberboy333]
 commands:
- bang:
+ bam:
   description: Starts a RussianRoulette game!
   usage: /bam
   permission: bambam.command.bam
